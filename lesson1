@@ -1,0 +1,31 @@
+列表.append('r')
+列表.insert(位置，’内容‘）
+del 列表（位置）删除后不可访问
+列表.pop()弹出最后一个元素
+列表.pop(位置）弹出指定位置的元素
+列表.remove（指定元素名字）
+列表.sort()进行按字母排序
+列表.sort(reverse=true)反排序且永久改变顺序
+sorted(列表）临时排序
+列表.reverse()倒着打印列表
+sorted（列表，reverse=true)倒着打印列表
+value=list(range(1,6))数值列表
+
+In [3]: min(value)
+In [4]: max(value)
+In [5]: sum(value)求值
+squares = [value**2 for value in range(1,11)]列表解析，这里for后面没有：
+列表[1:4],列表[:4],列表[2:] 列表[-3:]  列表2=列表1[:],列表切片
+元组是不可修改的量
+元组=（12，21）
+总之，如果你只想执行一个代码块，就使用if-elif-else 结构；如果要运行多个代码块，就使用一系列独立的if 语句。
+键值对，字典alien_0 = {'color': 'green', 'points': 5}
+ 添加键值对：alien_0['x_position'] = 0  alien_0['y_position'] = 25
+ 字典循环for key, value in user_0.items():
+          print("\nKey: " + key)
+          print("Value: " + value)
+遍历字典内的所有键：for key in user.keys():
+              print(key.title())
+遍历字典内的所有值：for value in user.values():
+for language in set(favorite_languages.values()):
+print(language.title()) 方法set可以剔除重复的项
