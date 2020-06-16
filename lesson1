@@ -29,3 +29,10 @@ squares = [value**2 for value in range(1,11)]列表解析，这里for后面没�
 遍历字典内的所有值：for value in user.values():
 for language in set(favorite_languages.values()):
 print(language.title()) 方法set可以剔除重复的项
+函数input() 让程序暂停运行，等待用户输入一些文本。获取用户输入后，Python将其存储在一个变量中，以方便你使用
+函数input() 接受一个参数：即要向用户显示的提示 或说明，让用户知道该如何做
+求模运算符 （%）是一个很有用的工具，它将两个数相除并返回余数：
+要返回到循环开头，并根据条件测试结果决定是否继续执行循环，可使用continue 语句
+要立即退出while 循环，不再运行循环中余下的代码，也不管条件测试的结果如何，可使用break 语句
+def build_person(first_name, last_name, age=''): age定义为空字符，表示为可选参数
+形参名*toppings 中的星号让Python创建一个名为toppings 的空元组，并将收到的所有值都封装到这个元组中。
