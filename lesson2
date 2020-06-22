@@ -1,0 +1,13 @@
+caffe_model = cv2.dnn.readNetFromCaffe(
+'my_model_description.protext', 'my_model.caffemodel')
+tensor_flow_model = cv2.dnn.readNetFromTensorflow(
+'my_model.pb', 'my_model_description.pbtxt')
+# Some Torch models use the .t7 extension and others use
+# the .net extension.
+torch_model_0 = cv2.dnn.readNetFromTorch('my_model.t7')
+torch_model_1 = cv2.dnn.readNetFromTorch('my_model.net')
+darknet_model = cv2.dnn.readNetFromDarket(
+'my_model_description.cfg', 'my_model.weights')
+onnx_model = cv2.dnn.readNetFromONNX('my_model.onnx')
+dldt_model = cv2.dnn.readNetFromModelOptimizer(
+'my_model_description.xml', 'my_model.bin')
